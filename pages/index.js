@@ -1,9 +1,10 @@
 // our-domain.com/
 
+import HeaderSection from './components/HeaderSection';
 
 function HomePage() {
     return (
-        <h1>Hi. I'm Daniel.</h1> 
+        <HeaderSection />
     );
 }
 
