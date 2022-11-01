@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "Montserrat Regular";
+    src: url('../public/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Roboto Mono SemiBold";
+    src: url('../public/fonts/RobotoMono-SemiBold.ttf');
+}

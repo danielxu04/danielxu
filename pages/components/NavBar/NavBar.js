@@ -1,23 +1,21 @@
-import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 import NavButton from "./NavButton";
-
 import Image from 'next/image';
 
-import Logo from '../../public/images/daniel-xu-logo.jpg';
+import Logo from '../../../public/images/daniel-xu-logo.jpg';
 
 function NavBar(){
 
     return (
-        <nav className="bg-zinc-900 border-indigo-200 borderx-indigo-500 px-3 py-3">
+        <nav className="bg-black border-indigo-200 borderx-indigo-500 px-3 py-3">
             <div className="container mx-auto justify-between flex flex-wrap items-center">
 
                 <div className="w-20">
-                    <Image src={Logo} alt="daniel-xu-logo"/>
+                    <Image src={Logo} alt="daniel-xu-logo" className="pl-4"/>
                 </div>
 
 
-                <div className="w-full">
-                    <ul className="flex flex-col rounded bg-zinc-900 mt-2 mb-1">
+                <div >
+                    <ul className="flex flex-row rounded p-4 bg-black mt-2 mb-1">
                         <li>
                             <NavButton text="Home" id="#home"/>
                         </li>
