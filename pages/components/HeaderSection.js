@@ -1,10 +1,11 @@
 import NavBar from './NavBar/NavBar';
+import IntroContainer from './IntroContainer';
 
 function HeaderSection(){
     return (
         <div>
             <NavBar />
-            <h1 className="font-montserratRegular">Hi. I'm Daniel</h1>
+            <IntroContainer />
         </div>
     );
 }
