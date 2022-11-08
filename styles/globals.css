@@ -25,8 +25,13 @@ body{
 
 @layer components{
 /* apply tailwind classes by using @apply, otherwise use regular css */
+
+
+/*********************************************** FILTERS FOR ICONS *****************************************/
 .filter-violet-500{
     filter: invert(36%) sepia(19%) saturate(7089%) hue-rotate(239deg) brightness(102%) contrast(93%);
 }
-
+.filter-violet-600{
+    filter: invert(36%) sepia(48%) saturate(2004%) hue-rotate(238deg) brightness(85%) contrast(124%);
+}
 }
