@@ -1,7 +1,7 @@
 import NavButton from "./NavButton";
-import Image from 'next/image';
+import Image from "next/image";
 
-import Logo from '../../../public/images/daniel-xu-logo.jpg';
+import codeLogo from "../../../public/icons/code.svg";
 
 function NavBar(){
 
@@ -10,7 +10,10 @@ function NavBar(){
             <div className="container mx-auto justify-between flex flex-wrap items-center">
 
                 <div className="w-20">
-                    <Image src={Logo} alt="daniel-xu-logo" className="pl-4"/>
+                    <div className="inline">
+                        <h1 className="font-robotoMonoBold text-violet-500 text-2xl">DX</h1>
+                        <Image src={codeLogo} alt="code-logo" className="filter-violet-500"/>
+                    </div>
                 </div>
 
 

@@ -6,17 +6,27 @@
     font-family: "Montserrat Regular";
     src: url('../public/fonts/Montserrat-Regular.ttf');
 }
-
 @font-face{
     font-family: "Roboto Mono SemiBold";
     src: url('../public/fonts/RobotoMono-SemiBold.ttf');
 }
-
 @font-face{
     font-family: "Montserrat Bold";
     src: url('../public/fonts/Montserrat-Bold.ttf');
 }
+@font-face{
+    font-family: "Roboto Mono Bold";
+    src: url('../public/fonts/RobotoMono-Bold.ttf');
+}
 
 body{
     background-color: black;
+}
+
+@layer components{
+/* apply tailwind classes by using @apply, otherwise use regular css */
+.filter-violet-500{
+    filter: invert(36%) sepia(19%) saturate(7089%) hue-rotate(239deg) brightness(102%) contrast(93%);
+}
+
 }
