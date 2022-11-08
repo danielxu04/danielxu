@@ -5,7 +5,10 @@ function HeaderSection(){
     return (
         <div>
             <NavBar />
-            <IntroContainer />
+            <div>
+                <IntroContainer />
+            </div>
+
         </div>
     );
 }

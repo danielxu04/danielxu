@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         montserratRegular: ["Montserrat Regular", "sans-serif"],
-        robotoMonoSemiBold: ["Roboto Mono SemiBold", "monospace"]
+        robotoMonoSemiBold: ["Roboto Mono SemiBold", "monospace"],
+        montserratBold: ["Montserrat Bold", "sans-serif"]
       }
     },
   },

@@ -11,3 +11,12 @@
     font-family: "Roboto Mono SemiBold";
     src: url('../public/fonts/RobotoMono-SemiBold.ttf');
 }
+
+@font-face{
+    font-family: "Montserrat Bold";
+    src: url('../public/fonts/Montserrat-Bold.ttf');
+}
+
+body{
+    background-color: black;
+}

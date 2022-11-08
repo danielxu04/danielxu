@@ -6,7 +6,7 @@ import Logo from '../../../public/images/daniel-xu-logo.jpg';
 function NavBar(){
 
     return (
-        <nav className="bg-black border-indigo-200 borderx-indigo-500 px-3 py-3">
+        <nav className="bg-black px-3 py-3">
             <div className="container mx-auto justify-between flex flex-wrap items-center">
 
                 <div className="w-20">
