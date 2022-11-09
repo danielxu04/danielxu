@@ -5,7 +5,10 @@ import MobileNav from "./MobileNav";
 function NavBar(){
 
     return (
-        <MobileNav />
+        <div>
+            <DesktopNav />
+            <MobileNav />
+        </div>
     );
 }
 

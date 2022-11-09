@@ -12,7 +12,7 @@ function MobileNav(){
     const [click, setClick] = useState(false);
 
     return(
-        <nav className="sm:w-screen bg-black px-3 py-3">
+        <nav className="sm:w-screen bg-black px-3 py-3 fixed w-full md:hidden">
             <div className="sm:w-screen mx-auto justify-between flex flex-wrap items-center">
                 <Logo />
                 <MenuButton click={click} setClick={setClick} />
