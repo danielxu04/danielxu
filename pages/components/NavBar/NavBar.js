@@ -5,7 +5,7 @@ import MobileNav from "./MobileNav";
 function NavBar(){
 
     return (
-        <div>
+        <div className="pt-2">
             <DesktopNav />
             <MobileNav />
         </div>
