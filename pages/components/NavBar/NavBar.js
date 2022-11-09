@@ -1,10 +1,11 @@
 // child components
 import DesktopNav from "./DesktopNav";
+import MobileNav from "./MobileNav";
 
 function NavBar(){
-    
+
     return (
-        <DesktopNav />
+        <MobileNav />
     );
 }
 
