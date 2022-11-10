@@ -4,11 +4,13 @@ import IntroContainer from './IntroContainer';
 function HeaderSection(){
     return (
         <div>
-            <NavBar />
-            <div>
+            <div className="absolte top-0">
+                <NavBar />
+            </div>
+            <div className="absolute top-16">
                 <IntroContainer />
             </div>
-
+            
         </div>
     );
 }

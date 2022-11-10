@@ -34,4 +34,7 @@ body{
 .filter-violet-600{
     filter: invert(36%) sepia(48%) saturate(2004%) hue-rotate(238deg) brightness(85%) contrast(124%);
 }
+.filter-fuchsia-400{
+    filter: invert(58%) sepia(43%) saturate(640%) hue-rotate(242deg) brightness(99%) contrast(97%);
+}
 }
