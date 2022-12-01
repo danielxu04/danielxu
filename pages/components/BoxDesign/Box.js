@@ -1,7 +1,7 @@
-function Box(){
+function Box(props){
     return (
-        <>
-        </>
+        <div>
+        </div>
     );
 }
 
