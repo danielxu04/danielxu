@@ -1,13 +1,13 @@
 // child components
 import NavButtonContainer from "./NavButtonContainer";
-import Logo from "./Logo";
+import DesktopLogo from "./DesktopLogo";
 
 
 function DesktopNav(){
     return(
-        <nav className="bg-transparent px-3 py-3 fixed w-full top-left-0">
+        <nav className="hidden md:block bg-transparent px-3 py-3 fixed w-full top-left-0">
             <div className="container mx-auto justify-between flex flex-wrap items-center">
-                <Logo />
+                <DesktopLogo />
                 <div className="hidden md:block">
                     <NavButtonContainer />
                 </div>

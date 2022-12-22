@@ -3,7 +3,7 @@ import Image from "next/image";
 import codeLogo from "../../../public/icons/code-solid.svg";
 
 
-function Logo(){
+function MobileLogo(){
     return (
         <div className="pt-3 z-0 pl-6">
             <h1 className="font-robotoMonoBold text-purple-800 purple-glow text-2xl inline-block">DX</h1>
@@ -12,4 +12,4 @@ function Logo(){
     );
 }
 
-export default Logo;
+export default MobileLogo;

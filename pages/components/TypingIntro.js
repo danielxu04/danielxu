@@ -4,8 +4,7 @@ import Typewriter from 'typewriter-effect';
 function TypingIntro(){
 
     return (
-        <div>
-
+        <div className="z-31">
             <h1 className="font-montserratBold text-purple-800 purple-glow text-4xl xs:text-5xl md:text-7xl whitespace-pre-line">
                 <Typewriter
                     options={{
