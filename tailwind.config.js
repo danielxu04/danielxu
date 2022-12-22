@@ -21,11 +21,13 @@ module.exports = {
         "90v": "90vh",
         "100v": "100vh",
         "51VW": "51vw",
-        "31VW": "31vw"
+        "31VW": "31vw",
+        "29VW": "29vw"
       },
       width: {
         "51VW": "51vw",
-        "31VW": "31vw"
+        "31VW": "31vw",
+        "29VW": "29vw"
       }
     },
     screens: {

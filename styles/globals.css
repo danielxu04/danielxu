@@ -47,9 +47,6 @@ body{
 }
 
 
-
-
-
 @layer components{
 /* apply tailwind classes by using @apply, otherwise use regular css */
 
