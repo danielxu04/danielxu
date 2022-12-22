@@ -36,29 +36,17 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.box-sm{
+.picture-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 51vw;
-    height: 51vw;
     position: relative;
     background: black;
     border-radius: 15px;
     box-shadow: 0 4px 30px #a78bfa;
 }
 
-.box-md{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30.5vw;
-    height: 30.5vw;
-    position: relative;
-    background: black;
-    border-radius: 15px;
-    box-shadow: 0 4px 30px #a78bfa;
-}
+
 
 
 

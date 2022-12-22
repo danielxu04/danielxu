@@ -20,6 +20,12 @@ module.exports = {
         "80v": "80vh",
         "90v": "90vh",
         "100v": "100vh",
+        "51VW": "51vw",
+        "31VW": "31vw"
+      },
+      width: {
+        "51VW": "51vw",
+        "31VW": "31vw"
       }
     },
     screens: {
