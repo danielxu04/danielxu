@@ -12,7 +12,7 @@ function IntroContainer(){
                     <Image src={DanielPicture} alt="daniel-picture" className='rounded-xl w-[50vw] md:w-[28vw] block mh-auto'/>
                 </div>
             </div>
-            <div className="py-14 flex flex-col w-full items-center md:w-1/2 md:pt-[30vh] md:pr-5">
+            <div className="py-14 flex flex-col w-full items-center md:w-1/2 md:pt-[30vh] md:pr-10">
                 <TypingIntro />
             </div>
         </div>
