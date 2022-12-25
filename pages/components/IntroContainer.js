@@ -2,6 +2,7 @@
 import Image from 'next/image';
 
 import TypingIntro from "./TypingIntro";
+import AboutMe from "./AboutMe/AboutMe";
 import DanielPicture from '../../public/images/danielpicture.jpg';
 
 function IntroContainer(){

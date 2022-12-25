@@ -21,6 +21,7 @@
 
 body{
     background: radial-gradient(circle at 28.2% 68.8%, rgb(30, 30, 30) 0%, rgb(0, 0, 0) 99.4%);
+    overflow: scroll;
 }
 
 .purple-glow{

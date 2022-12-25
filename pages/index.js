@@ -5,10 +5,9 @@ import AboutMe from './components/AboutMe/AboutMe'
 
 function HomePage() {
     return (
-        <div className="flex flex-col">
-            <HeaderSection />
-
-            <AboutMe />
+        <div className="flex flex-col w-screen">
+                <HeaderSection />
+                <AboutMe />
         </div>
     );
 }

@@ -4,10 +4,10 @@ import IntroContainer from './IntroContainer';
 function HeaderSection(){
     return (
         <div>
-            <div className="absolute top-0">
+            <div className="top-0">
                 <NavBar />
             </div>
-            <div className="absolute top-16">
+            <div className="py-[11vh]">
                 <IntroContainer />
             </div>
             
