@@ -1,7 +1,9 @@
+import IntroParagraph from './IntroParagraph';
+
 function AboutMe(){
     return(
-        <div>
-            
+        <div className='absolute top-[80vh]'>
+            <IntroParagraph />
         </div>
     );
 }

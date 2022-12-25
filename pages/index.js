@@ -1,10 +1,15 @@
 // our-domain.com/
 
 import HeaderSection from './components/HeaderSection';
+import AboutMe from './components/AboutMe/AboutMe'
 
 function HomePage() {
     return (
-        <HeaderSection />
+        <div className="flex flex-col">
+            <HeaderSection />
+
+            <AboutMe />
+        </div>
     );
 }
 
