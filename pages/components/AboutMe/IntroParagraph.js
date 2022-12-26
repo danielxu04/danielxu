@@ -5,7 +5,7 @@ function IntroParagraph(){
             
             <br /><br />I'm super passionate about programming, in various areas such as Web Development, Game Development, Data Science, and Machine Learning.
 
-            <br /><br />Currently, I'm a Web Developer at <strong className="text-purple-300 purple-glow">Discourse Agency</strong>, and I'm developing a virtual Privilege Walk API as a branch of their website, using 
+            <br /><br />Currently, I'm a Web Developer at <strong className="text-purple-300 purple-glow">Discourse Agency,</strong> and I'm developing a virtual Privilege Walk API as a branch of their website, using 
             <strong className="text-purple-300 purple-glow"> Next.js, </strong>
             <strong className="text-purple-300 purple-glow">Firebase,</strong> and <strong className="text-purple-300 purple-glow">Tailwind CSS.</strong>
 
