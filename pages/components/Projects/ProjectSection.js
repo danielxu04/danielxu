@@ -1,7 +1,11 @@
+import GlassCard from "./GlassCard";
+
 function ProjectSection(){
     return (
-        <div>
-            
+        <div className="flex flex-col md:flex-row center-items justify-center">
+            <GlassCard />
+            <GlassCard />
+            <GlassCard />
         </div>
     );
 }
