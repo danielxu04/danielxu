@@ -7,7 +7,7 @@ function HeaderSection(){
             <div className="top-0">
                 <NavBar />
             </div>
-            <div className="pt-[11vh] md:py-[11vh]">
+            <div className="pt-[11vh] md:py-[11vh] md:pb-[8vh]">
                 <IntroContainer />
             </div>
             
