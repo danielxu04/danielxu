@@ -57,8 +57,6 @@ body{
 
 .glass-container .glass-card{
     position: relative;
-    width: 280px;
-    height: 400px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -105,6 +103,9 @@ body{
     color: #fff;
 }
 
+.blur-effect{
+    backdrop-filter: blur(7px);
+}
 
 
 @layer components{
