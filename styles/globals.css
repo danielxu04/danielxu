@@ -73,14 +73,6 @@ body{
 .glass-container .glass-card .glass-content{
     padding: 20px;
     text-align: center;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.glass-container .glass-card:hover .glass-content{
-    transform: translateY(0px);
-    opacity: 1;
 }
 
 .glass-container .glass-card .glass-content h2{
