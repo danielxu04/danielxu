@@ -40,7 +40,7 @@ module.exports = {
       '2xl': '1280px',
       '3xl': '1400px',
       '4xl': '1540px',
-      '5xl': '1800px'
+      '5xl': '1800pxx'
     },
   },
   plugins: [],
