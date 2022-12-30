@@ -1,1 +1,1 @@
-Personal website programmed using Next.js and Tailwind CSS.
+Personal website programmed using React, Next.js, and Tailwind CSS.
