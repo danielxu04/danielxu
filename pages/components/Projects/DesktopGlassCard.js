@@ -7,8 +7,11 @@ function DesktopGlassCard(props){
     const tilt = useRef(null);
 
     useEffect(() => {
-        VanillaTilt.init(tilt.current, options);
-    }, [options]);
+        const executeTilt = async () => {
+            VanillaTilt.init(tilt.current, options);
+        };
+        executeTilt();
+    }, []);
 
 
     return (

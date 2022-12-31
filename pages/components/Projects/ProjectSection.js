@@ -9,6 +9,8 @@ function ProjectSection(){
 
     return (
         <div className="">
+                <hr className="w-6 m"></hr>
+
             <div className="flex flex-col center-items justify-center md:px-[6vw] lg:hidden">
                 <MobileGlassCard 
                     title="Expense Tracker" 

@@ -95,6 +95,18 @@ body{
     color: #fff;
 }
 
+.glass-container .glass-card .glass-content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px; 
+    margin-top: 15px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 .blur-effect{
     backdrop-filter: blur(7px);
 }
