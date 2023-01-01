@@ -21,7 +21,10 @@ function DesktopGlassCard(props){
                         <div className="glass-content">
                             <h2 className="font-montserratBold">{props.tempNum}</h2>
                             <h3 className="font-montserratRegular">{props.title}</h3>
-                            <p className="font-montserratRegular pt-2">{props.description}</p>
+                            <p className="font-montserratRegular pt-1">{props.description}</p>
+                        </div>
+                        <div className="justify-center text-center languages">
+                            <p className="font-montserratRegular relative pt-8">{props.lf}</p>
                         </div>
                     </div>
                 </div>

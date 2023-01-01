@@ -5,16 +5,20 @@ import "aos/dist/aos.css";
 import HeaderSection from './components/HeaderSection';
 import AboutMe from './components/AboutMe/AboutMe';
 import ProjectSection from './components/Projects/ProjectSection';
+import FooterSection from './components/Footer/FooterSection';
 
 function HomePage() {
+
     useEffect(() => {
         Aos.init({duration: 1000});
     }, []);
+
     return (
         <div className="flex flex-col w-screen">
                 <HeaderSection />
                 <div data-aos="fade-up"><AboutMe /></div>
                 <div data-aos="fade-up"><ProjectSection /></div>
+                <div data-aos="fade-up"><FooterSection /></div>
         </div>
     );
 }

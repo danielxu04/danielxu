@@ -1,6 +1,6 @@
 function FooterSection(){
     return (
-        <div>
+        <div className="">
             
         </div>
     );

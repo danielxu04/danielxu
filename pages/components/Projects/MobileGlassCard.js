@@ -8,6 +8,7 @@ function MobileGlassCard(props){
                             <h2 className="font-montserratBold">{props.tempNum}</h2>
                             <h3 className="font-montserratRegular">{props.title}</h3>
                             <p className="font-montserratRegular">{props.description}</p>
+                            <p>{props.lf}</p>
                         </div>
                     </div>
                 </div>

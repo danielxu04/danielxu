@@ -39,7 +39,6 @@ body{
 
 .picture-box{
     display: flex;
-    justify-content: center;
     align-items: center;
     position: relative;
     background: black;
@@ -94,15 +93,15 @@ body{
 }
 
 .glass-container .glass-card .glass-content{
-    padding: 20px;
+    padding: 2vh;
     text-align: center;
 }
 
 .glass-container .glass-card .glass-content h2{
     position: absolute;
-    top: -40px;
-    right: 30px;
-    font-size: 8em;
+    top: -1.8vh;
+    right: 1vw;
+    font-size: 5.5rem;
     opacity: 0.2;
     pointer-events: none;
 }
@@ -132,6 +131,17 @@ body{
 
 .blur-effect{
     backdrop-filter: blur(7px);
+}
+
+.languages{
+    font-size: 0.85rem;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+.languages:hover{
+    color: #d4cde8;
+    transition: 0.75s;
 }
 
 
