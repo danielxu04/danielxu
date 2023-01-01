@@ -16,7 +16,7 @@ function DesktopGlassCard(props){
     return (
         <a href={props.linkTo}>
             <div ref={tilt} {...rest} className="glass-container py-[2vh] md:py-0 md:px-[2vw]">
-                <div onClick="" className="glass-card h-[40vh] md:w-[20vw] md:h-[50vh]">
+                <div className="glass-card h-[40vh] md:w-[20vw] md:h-[50vh]">
                     <div className=" text-white">
                         <div className="glass-content">
                             <h2 className="font-montserratBold">{props.tempNum}</h2>
