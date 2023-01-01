@@ -70,6 +70,11 @@ body{
     backdrop-filter: blur(5px);
 }
 
+.glass-container .glass-card:hover{
+    border-color:#a78bfa;
+    box-shadow: 0 4px 30px #a78bfa;
+    transition: 0.75s;
+}
 .glass-container .glass-card .glass-content{
     padding: 20px;
     text-align: center;
