@@ -18,8 +18,8 @@ function ProjectSection(){
     const codeManLink = "https://github.com/danielxu04/code-man";
 
     // languages and frameworks
-    const expenseTrackerLF = "React, CSS";
-    const privilegeWalkLF = "React, Next.js, Tailwind CSS, Firebase";
+    const expenseTrackerLF = "React.js, CSS";
+    const privilegeWalkLF = "Next.js, Tailwind CSS, Firebase";
     const codeManLF = "Java";
 
 
@@ -32,7 +32,7 @@ function ProjectSection(){
                     <MobileGlassCard 
                         title="Expense Tracker" 
                         tempNum='01'
-                        description="An expense tracker web application programmed using React, helping users visualize their annual expenses, relative to
+                        description="An expense tracker web application programmed using React, including an expense graph to help users visualize their annual expenses, relative to
                         their monthly purchases."
                         linkTo = {expenseTrackerLink}
                         lf = {expenseTrackerLF}
@@ -63,7 +63,7 @@ function ProjectSection(){
                 <DesktopGlassCard 
                     title="Expense Tracker" 
                     tempNum='01'
-                    description="An expense tracker web application programmed using React, helping users visualize their annual expenses, relative to
+                    description="An expense tracker web application programmed using React, including an expense graph to help users visualize their annual expenses, relative to
                     their monthly purchases."
                     linkTo = {expenseTrackerLink}
                     lf = {expenseTrackerLF}

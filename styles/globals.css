@@ -68,8 +68,6 @@ body{
     background: rgba(255, 255, 255, 0.08);
     overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
     backdrop-filter: blur(5px);
 }
 
@@ -121,31 +119,18 @@ body{
     color: #fff;
 }
 
-.glass-container .glass-card .glass-content a{
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px; 
-    margin-top: 15px;
-    background: #fff;
-    color: #000;
-    border-radius: 20px;
-    text-decoration: none;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
 .blur-effect{
     backdrop-filter: blur(7px);
 }
 
 .languages{
     font-size: 0.85rem;
-    padding-bottom: 0;
     margin: 0 auto;
 }
 
 .languages:hover{
-    color: #d4cde8;
-    transition: 0.75s;
+    text-shadow: 0px 0px 9px #cbbef5;
+    transition: 0.5s;
 }
 
 
