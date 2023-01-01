@@ -2,7 +2,7 @@ import NavButton from "./NavButton";
 
 function NavButtonContainer(){
     return (
-        <ul className="flex flex-row rounded p-4 bg-transparent mt-2 mb-1">
+        <ul className="flex flex-row rounded p-3 bg-transparent mt-2 mb-1">
             <li>
                 <NavButton text="Home" id="#home"/>
             </li>
