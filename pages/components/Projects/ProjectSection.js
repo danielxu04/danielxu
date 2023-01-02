@@ -26,7 +26,7 @@ function ProjectSection(){
 
     return (
         <div>
-            <div className="flex flex-col center-items justify-center xl:hidden">
+            <div className="flex flex-col center-items justify-center lg:hidden">
                 <div data-aos="fade-up">
                     <MobileGlassCard 
                         title="Expense Tracker" 
@@ -58,7 +58,7 @@ function ProjectSection(){
                     />
                 </div>
             </div>
-            <div className="flex-col center-items justify-center hidden xl:flex xl:flex-row xl:pt-[6vh]">
+            <div className="flex-col center-items justify-center hidden lg:flex lg:flex-row lg:pt-[6vh]">
                 <DesktopGlassCard 
                     title="Expense Tracker" 
                     tempNum='01'

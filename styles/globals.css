@@ -41,6 +41,10 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.blur-effect{
+    backdrop-filter: blur(7px);
+}
+
 .picture-box{
     display: flex;
     align-items: center;
@@ -49,6 +53,10 @@ body{
     border-radius: 15px;
     box-shadow: 0 4px 30px #a78bfa;
 }
+
+
+
+/***************************************************** DESKTOP GLASS CARDS ***************************************/
 
 .glass-container{
     position: relative;
@@ -69,29 +77,6 @@ body{
     overflow: hidden;
     display: flex;
     backdrop-filter: blur(2px);
-}
-
-.glass-container .glass-card:hover{
-    border-color:#a78bfa;
-    box-shadow: 0 4px 40px #a78bfa;
-    transition: 0.75s;
-}
-
-.glass-container .glass-card .glass-content:hover h2{
-    color: #a78bfa;
-    opacity: 0.2;
-    transition: 0.75s;
-}
-
-.glass-container .glass-card .glass-content:hover h3{
-    color: #E9D5FF;
-    text-shadow: 0px 0px 9px #cbbef5;
-    transition: 0.75s;
-}
-
-.glass-container .glass-card .glass-content:hover p{
-    color: #d4cde8;
-    transition: 0.75s;
 }
 
 .glass-container .glass-card .glass-content{
@@ -119,8 +104,28 @@ body{
     color: #fff;
 }
 
-.blur-effect{
-    backdrop-filter: blur(7px);
+/* hovers */
+
+.glass-container .glass-card:hover{
+    border-color:#a78bfa;
+    box-shadow: 0 4px 40px #a78bfa;
+    transition: 0.75s;
+}
+
+.glass-container .glass-card .glass-content:hover h2{
+    color: #a78bfa;
+    transition: 0.75s;
+}
+
+.glass-container .glass-card .glass-content:hover h3{
+    color: #E9D5FF;
+    text-shadow: 0px 0px 9px #cbbef5;
+    transition: 0.75s;
+}
+
+.glass-container .glass-card .glass-content:hover p{
+    color: #d4cde8;
+    transition: 0.75s;
 }
 
 .languages{
@@ -131,6 +136,62 @@ body{
 .languages:hover{
     text-shadow: 0px 0px 9px #cbbef5;
     transition: 0.5s;
+}
+
+
+
+/*************************************** MOBILE GLASS CARDS ************************************************/
+
+.glass-container .mobile-glass-card{
+    position: relative;
+    margin: 30px;
+    border-color:#9f88e6;
+    box-shadow: 0 0 25px #af94cb;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    display: flex;
+}
+.glass-container .mobile-glass-card .mobile-glass-content h2{
+    position: absolute;
+    top: -1.8vh;
+    right: 1vw;
+    font-size: 5.5rem;
+    opacity: 0.2;
+    pointer-events: none;
+    color: #a78bfa;
+}
+.glass-container .mobile-glass-card .mobile-glass-content h3{
+    font-size: 1.8em;
+    z-index: 1;
+    color: #ddc1fa;
+}
+.glass-container .mobile-glass-card .mobile-glass-content p{
+    color: #d4cde8;
+}
+
+/*hovers*/
+.glass-container .mobile-glass-card:hover{
+    border-color:#564687;
+    box-shadow: 0 4px 40px #564687;
+    transition: 0.75s;
+}
+
+.glass-container .mobile-glass-card:hover .mobile-glass-content h2{
+    text-shadow: 0px 0px 6px #564687;
+    transition: 0.75s;
+}
+
+.glass-container .mobile-glass-card:hover .mobile-glass-content h3{
+    color: #564687;
+    text-shadow: 0px 0px 8px #564687;
+    transition: 0.75s;
+}
+
+.glass-container .mobile-glass-card:hover .mobile-glass-content h3{
+    color: #564687;
+    text-shadow: 0px 0px 8px #564687;
+    transition: 0.75s;
 }
 
 
