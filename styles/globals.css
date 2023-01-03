@@ -28,6 +28,10 @@ body{
     text-shadow: 0px 0px 9px #581C87;
 }
 
+.purple-300-glow{
+    text-shadow: 0px 0px 9px #a78bfa;
+}
+
 .purple-box-shadow{
     box-shadow: 0 4px 30px #a78bfa;
 }
@@ -212,5 +216,7 @@ body{
 .filter-purple-800{
     filter: invert(11%) sepia(70%) saturate(5726%) hue-rotate(272deg) brightness(91%) contrast(89%);
 }
-
+.filter-purple-300{
+    filter: invert(64%) sepia(82%) saturate(2908%) hue-rotate(214deg) brightness(103%) contrast(96%);
+}
 }

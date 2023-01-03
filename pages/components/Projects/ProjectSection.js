@@ -25,7 +25,7 @@ function ProjectSection(){
 
 
     return (
-        <div>
+        <div className="mb-[10vh]">
             <div className="flex flex-col center-items justify-center lg:hidden">
                 <div data-aos="fade-up">
                     <MobileGlassCard 
