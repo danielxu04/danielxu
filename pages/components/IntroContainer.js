@@ -7,7 +7,7 @@ function IntroContainer(){
     return (
         <div className="z-32 bg-transparent pt-6 flex flex-col w-screen md:flex-row">
             <div className="pt-[8vh] z-28 items-center flex flex-col w-full md:w-1/2 md:pt-[8vh] lg:pt-[15vh]">
-                <div className="picture-box w-51VW h-51VW md:w-29VW md:h-29VW light-purple-box-shadow">
+                <div className="picture-box w-51VW h-51VW md:w-29VW md:h-29VW px-2">
                     <Image src={DanielPicture} alt="daniel-picture" className='rounded-xl w-[50vw] md:w-[28vw] block mh-auto'/>
                 </div>
             </div>
