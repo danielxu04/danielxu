@@ -124,7 +124,7 @@ body{
 .glass-container .glass-card .glass-content{
     padding: 2vh;
     text-align: center;
-    transition: 0.75s;
+    transition: 0.9s;
 }
 
 .glass-container .glass-card .glass-content h2{
@@ -134,20 +134,20 @@ body{
     font-size: 5.5rem;
     opacity: 0.2;
     pointer-events: none;
-    transition: 0.75s;
+    transition: 0.9s;
 }
 
 .glass-container .glass-card .glass-content h3{
     font-size: 1.8em;
     color: #fff;
     z-index: 1;
-    transition: 0.75s;
+    transition: 0.9s;
 }
 
 .glass-container .glass-card .glass-content p{
     font-size: 1em;
     color: #fff;
-    transition: 0.75s;
+    transition: 0.9s;
 }
 
 /* hovers */
@@ -155,23 +155,23 @@ body{
 .glass-container .glass-card:hover{
     border-color:#a78bfa;
     box-shadow: 0 4px 40px #a78bfa;
-    transition: 0.75s;
+    transition: 0.8s;
 }
 
 .glass-container .glass-card .glass-content:hover h2{
     color: #a78bfa;
-    transition: 0.75s;
+    transition: 0.8s;
 }
 
 .glass-container .glass-card .glass-content:hover h3{
     color: #E9D5FF;
     text-shadow: 0px 0px 9px #cbbef5;
-    transition: 0.75s;
+    transition: 0.8s;
 }
 
 .glass-container .glass-card .glass-content:hover p{
     color: #d4cde8;
-    transition: 0.75s;
+    transition: 0.8s;
 }
 
 .languages{
