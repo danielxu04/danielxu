@@ -7,7 +7,10 @@ module.exports = {
         montserratRegular: ["Montserrat Regular", "sans-serif"],
         robotoMonoSemiBold: ["Roboto Mono SemiBold", "monospace"],
         montserratBold: ["Montserrat Bold", "sans-serif"],
-        robotoMonoBold: ["Roboto Mono Bold", "monosapce"]
+        robotoMonoBold: ["Roboto Mono Bold", "monosapce"],
+        ubuntuMedium: ["Ubuntu Medium", "sans-serif"],
+        montserratMedium: ["Montserrat Medium", "sans-serif"],
+        montserratSemiBold: ["Montserrat Semi-Bold", "sans-serif"]
       },
       height: {
         "10v": "10vh",

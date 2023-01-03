@@ -18,6 +18,18 @@
     font-family: "Roboto Mono Bold";
     src: url('../public/fonts/RobotoMono-Bold.ttf');
 }
+@font-face{
+    font-family: "Ubuntu Medium";
+    src: url('../public/fonts/Ubuntu-Medium.ttf');
+}
+@font-face{
+    font-family: "Montserrat Medium";
+    src: url('../public/fonts/Montserrat-Medium.ttf');
+}
+@font-face{
+    font-family: "Montserrat Semi-Bold";
+    src: url('../public/fonts/Montserrat-SemiBold.ttf');
+}
 
 body{
     background: radial-gradient(circle at 28.2% 68.8%, rgb(40, 40, 40) 0%, rgb(0, 0, 0) 99.4%);
