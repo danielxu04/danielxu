@@ -52,6 +52,10 @@ body{
     box-shadow: 0 4px 30px #a78bfa;
 }
 
+.icon-purple-box-shadow{
+    box-shadow: 0 4px 30px #a78bfa;
+}
+
 .glassmorphism{
     background: rgba(255, 255, 255, 0.09);
     border-radius: 16px;
@@ -227,6 +231,20 @@ body{
 }
 
 
+/***************************************************** FOOTER ICONS **************************************************/
+.footer-icon{
+    display: inline-block;
+}
+.footer-icon:hover{
+    transition: 1s;
+}
+.icon-box-shadow{
+}
+.icon-box-shadow:hover{
+    transition: 1s;
+    filter: drop-shadow(0 0 10px #623088);
+}
+
 @layer components{
 /* apply tailwind classes by using @apply, otherwise use regular css */
 
@@ -246,5 +264,8 @@ body{
 }
 .filter-purple-300{
     filter: invert(64%) sepia(82%) saturate(2908%) hue-rotate(214deg) brightness(103%) contrast(96%);
+}
+.filter-purple-600{
+    filter: invert(23%) sepia(99%) saturate(3051%) hue-rotate(263deg) brightness(94%) contrast(96%);
 }
 }

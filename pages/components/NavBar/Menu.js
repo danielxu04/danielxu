@@ -6,6 +6,7 @@ function Menu(props){
             <div className="pt-4 pb-4"><NavButton text="Home" id="#home"/></div>
             <div className="pt-4 pb-4"><NavButton text="Projects" id="#projects"/></div>
             <div className="pt-4 pb-4"><NavButton text="Contact" id="#contact"/></div>
+            <div className="pt-4 pb-4"><NavButton text="Resume" id="#Resume"/></div>
         </div>
     );
 }
