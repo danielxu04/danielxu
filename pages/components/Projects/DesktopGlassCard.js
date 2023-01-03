@@ -4,14 +4,10 @@ import { useEffect, useRef, } from 'react';
 function DesktopGlassCard(props){
     const { options, ...rest } = props;
     const tilt = useRef(null);
-
+    
     useEffect(() => {
-        const executeTilt = async () => {
-            VanillaTilt.init(tilt.current, options);
-        };
-        executeTilt();
-    }, []);
-
+        VanillaTilt.init(tilt.current, options);
+    }, [options]);
 
     return (
         <a href={props.linkTo}>

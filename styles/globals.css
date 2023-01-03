@@ -24,6 +24,10 @@ body{
     overflow: scroll;
 }
 
+.svg-glow {
+    filter: box-shadow(0 4px 30px #a78bfa);
+  }
+
 .purple-glow{
     text-shadow: 0px 0px 9px #581C87;
 }
