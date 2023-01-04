@@ -19,7 +19,7 @@ function HomePage() {
                 <HeaderSection />
                 <div data-aos="fade-up"><AboutMe /></div>
                 <div data-aos="fade-up"><ProjectSection /></div>
-                <ContactSection />
+                <div data-aos="fade-up"><ContactSection /></div>
                 <FooterSection />
         </div>
     );
