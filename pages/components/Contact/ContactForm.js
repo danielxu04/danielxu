@@ -37,7 +37,7 @@ function ContactForm(){
             action="mailto:danielxu004@gmail.com" 
             method="post" 
             enctype="text/plain" 
-            className="w-3/5 pt-[4vh]"
+            className="w-full lg:w-3/5 pt-[4vh]"
         >
             <div className="gap-2.5 block text-center">
                 <Input 
@@ -74,15 +74,14 @@ function ContactForm(){
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                     value={formik.values.message}
-                    className="rounded-md bg-zinc-800 px-4 p-3 mt-[6vh] font-montserratRegular form-purple-box-shadow text-purple-300 purple-300-glow inline-block mx-auto text-left focus:outline-none w-[45vw]"
+                    className="rounded-md bg-zinc-800 p-3 w-[77vw] 2xs:w-[70vw] lg:w-[45vw] mt-[6vh] font-montserratRegular form-purple-box-shadow text-purple-300 purple-300-glow inline-block mx-auto text-left focus:outline-none"
                 />
                 {formik.errors.message && formik.touched.message && (
                     <p className="text-xs text-pink-600 pt-3 font-montserratMedium">{formik.errors.message}</p>
                 )}
             </div>
-            
             <div className="block text-center">
-                <button className="rounded-lg w-[10vw] h-[5vh] bg-zinc-800 text-purple-300 font-montserratMedium border-purple-300 border-2 mt-[7vh] justify-center hover:scale-110 chat-btn" type='submit'>
+                <button className="rounded-lg w-[40vw] md:w-[20vw] lg:w-[10vw] h-[7vh] md:h-[5vh] bg-zinc-800 text-purple-300 font-montserratMedium border-purple-300 border-2 mt-[4vh] lg:mt-[7vh] justify-center hover:scale-110 chat-btn" type='submit'>
                     Send!
                 </button>
             </div>
