@@ -241,6 +241,23 @@ body{
 }
 
 
+/***************************************************** CONTACT FORM **************************************************/
+.chat-btn{
+    transition: 0.8s;
+    box-shadow: 0 0 20px #a78bfa;
+    text-shadow: 0px 0px 6px #a78bfa;
+}
+.chat-btn:hover{
+    transition: 0.8s;
+    box-shadow: 0 0 30px #a78bfa;
+    text-shadow: 0px 0px 20px #a78bfa;
+}
+.form-purple-box-shadow{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px #c5b5f4;
+}
+
+
 /***************************************************** FOOTER ICONS **************************************************/
 .footer-icon{
     display: inline-block;
