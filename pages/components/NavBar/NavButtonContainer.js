@@ -1,16 +1,18 @@
+import {Link} from 'react-scroll';
+
 import NavButton from "./NavButton";
 
 function NavButtonContainer(){
     return (
         <ul className="flex flex-row rounded p-3 bg-transparent mt-2 mb-1">
             <li>
-                <NavButton text="Home" id="#home"/>
+                <Link activeClass="active" to="home"><NavButton text="Home" id="#home"/></Link>
             </li>
             <li>
-                <NavButton text="Projects" id="#projects"/>
+                <Link to="aboutme" ><NavButton text="Projects" id="#projects"/></Link>
             </li>
             <li>
-                <NavButton text="Contact" id="#contact"/>
+                <Link to="contact" ><NavButton text="Contact" id="#contact"/></Link>
             </li>
             <li>
                 <NavButton text="Resume" id="/resume/resume-master.pdf"/>

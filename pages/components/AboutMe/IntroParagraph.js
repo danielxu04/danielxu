@@ -11,7 +11,7 @@ function IntroParagraph(){
 
             <br /><br />When I&apos;m not coding, you&apos;ll find me playing piano, training in the pool, watching K-Dramas and Anime, or hanging out with friends.
 
-            <br /><br />I love <strong className="text-purple-300 purple-glow">learning</strong> about new technologies, and building projects to bring my ideas to life. 
+            <br /><br />I love <strong id="aboutme" className="text-purple-300 purple-glow">learning</strong> about new technologies, and building projects to bring my ideas to life. 
             
             <br /><br /><strong className="text-purple-300 purple-glow">Here&apos;s some of my work:</strong>
         </p>
