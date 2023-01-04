@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import HeaderSection from './components/HeaderSection';
 import AboutMe from './components/AboutMe/AboutMe';
 import ProjectSection from './components/Projects/ProjectSection';
+import ContactSection from './components/Contact/ContactSection';
 import FooterSection from './components/Footer/FooterSection';
 
 function HomePage() {
@@ -18,6 +19,7 @@ function HomePage() {
                 <HeaderSection />
                 <div data-aos="fade-up"><AboutMe /></div>
                 <div data-aos="fade-up"><ProjectSection /></div>
+                <ContactSection />
                 <FooterSection />
         </div>
     );
