@@ -52,6 +52,10 @@ body{
     text-shadow: 0px 0px 9px #a78bfa;
 }
 
+.subtle-purple-300-glow{
+    text-shadow: 0px 0px 6px #a78bfa;
+}
+
 .purple-box-shadow{
     box-shadow: 0 4px 30px #a78bfa;
 }
@@ -254,7 +258,7 @@ body{
 }
 .form-purple-box-shadow{
     border: 1px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 20px #c5b5f4;
+    box-shadow: 0 0 20px #ac95f1;
 }
 
 

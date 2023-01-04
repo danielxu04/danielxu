@@ -37,7 +37,7 @@ function ContactForm(){
             action="mailto:danielxu004@gmail.com" 
             method="post" 
             enctype="text/plain" 
-            className="w-3/5"
+            className="w-3/5 pt-[4vh]"
         >
             <div className="gap-2.5 block text-center">
                 <Input 
@@ -82,7 +82,7 @@ function ContactForm(){
             </div>
             
             <div className="block text-center">
-                <button className="rounded-lg w-[10vw] h-[5vh] bg-zinc-800 text-purple-300 font-montserratMedium border-purple-300 border-2 mt-[4vh] justify-center hover:scale-110 chat-btn" type='submit'>
+                <button className="rounded-lg w-[10vw] h-[5vh] bg-zinc-800 text-purple-300 font-montserratMedium border-purple-300 border-2 mt-[7vh] justify-center hover:scale-110 chat-btn" type='submit'>
                     Send!
                 </button>
             </div>
