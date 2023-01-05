@@ -15,7 +15,7 @@ function NavButtonContainer(){
                 <Link to="contact" ><NavButton text="Contact" id="#contact"/></Link>
             </li>
             <li>
-                <NavButton text="Resume" id="danielxu04.github.io/danielxu/resume/resume-master.pdf"/>
+                <NavButton text="Resume" id="danielxu04.github.io/resume/resume-master.pdf"/>
             </li>
         </ul>
     );
