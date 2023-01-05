@@ -13,7 +13,7 @@ function IntroParagraph(){
 
             <br /><br />I love <strong id="aboutme" className="text-purple-300 purple-glow">learning</strong> about new technologies, and building projects to bring my ideas to life. 
             
-            <br /><br /><strong className="text-purple-300 purple-glow">Here&apos;s some of my work:</strong>
+            <br /><br />Here&apos;s some of my work:
         </p>
     );
 }
