@@ -81,7 +81,7 @@ function ContactForm(){
                 )}
             </div>
             <div className="block text-center">
-                <button className="rounded-lg w-[40vw] md:w-[20vw] lg:w-[10vw] h-[7vh] md:h-[5vh] bg-zinc-800 text-purple-300 font-montserratMedium border-purple-300 border-2 mt-[4vh] lg:mt-[7vh] justify-center hover:scale-110 chat-btn" type='submit'>
+                <button className="rounded-lg w-[40vw] md:w-[20vw] lg:w-[10vw] h-[7vh] md:h-[5vh] lg:h-[3.5vh] xl:h-[5vh] bg-zinc-800 text-purple-300 font-montserratMedium border-purple-300 border-2 mt-[4vh] xl:mt-[7vh] justify-center hover:scale-110 chat-btn" type='submit'>
                     Send!
                 </button>
             </div>

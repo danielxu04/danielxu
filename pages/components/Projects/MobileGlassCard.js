@@ -2,7 +2,7 @@ function MobileGlassCard(props){
     return (
         <a href={props.linkTo}>
             <div className="glass-container py-[2vh] md:py-0 md:px-[7vw]">
-                <div className="mobile-glass-card h-[50vh] md:h-[35vh] lg:w-[20vw] lg:h-[40vh]">
+                <div className="mobile-glass-card h-[50vh] md:h-[35vh] lg:h-[28vh] lg:w-[60vw] xl:w-[20vw] xl:h-[40vh]">
                     <div className=" text-white pt-[10vh] md:pt-[6vh] md:px-10 lg:px-6">
                         <div className="mobile-glass-content text-center">
                             <h2 className="font-montserratBold pr-2 pt-1 md:pt-2">{props.tempNum}</h2>

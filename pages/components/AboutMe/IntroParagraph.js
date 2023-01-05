@@ -1,6 +1,6 @@
 function IntroParagraph(){
     return (
-        <p className="text-purple-200 font-montserratRegular text-md md:text-lg">
+        <p className="text-purple-200 text-center xl:text-left font-montserratRegular text-md md:text-lg">
             Hi! I&apos;m Daniel Xu, a <strong className="text-purple-300 purple-glow">Computer Science</strong> student at the <strong className="text-purple-300 purple-glow">University of Waterloo.</strong> 
             
             <br /><br />I&apos;m super passionate about programming, in various areas such as Web Development, Game Development, Data Science, and Machine Learning.

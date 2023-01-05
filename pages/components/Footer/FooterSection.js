@@ -2,11 +2,14 @@ import FooterIcons from './FooterIcons';
 
 function FooterSection(){
     return (
-        <div className="text-center justify-center bg-transparent py-3 block">
-            <div className="inline-block text-right">
-                <p className="text-purple-600 font-montserratRegular lighter-purple-glow pl-[27vw] text-md">Created and designed by Daniel Xu, 2023.</p>
+        <div className="bg-transparent py-3 flex flex-col xl:block">
+            <div className="flex justify-center pt-2 xl:pl-[1.5vw] xl:hidden xl:text-left">
+                <FooterIcons />
             </div>
-            <div className="lg:pl-[1.5vw] inline-block text-left">
+            <div className="flex justify-center xl:inline-block xl:text-right">
+                <p className="text-purple-600 text-sm font-montserratRegular lighter-purple-glow xl:pl-[27vw] xl:text-md">Created and designed by Daniel Xu, 2023.</p>
+            </div>
+            <div className="hidden justify-center pt-2 xl:pl-[1.5vw] xl:inline-block xl:text-left">
                 <FooterIcons />
             </div>
         </div>
