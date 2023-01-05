@@ -5,7 +5,7 @@ export default function Document(){
         <Html className="m-0 overflow-x-hidden scroll-smooth p-0">
                 <title>Daniel Xu</title>
                 <Head>
-                    <link rel="icon" type="images/x-icon" href="/favicon/favicon.ico" />
+                    <link rel="icon" href="/favicon/favicon.ico" />
                 </Head>
                 <body className="transition-300 relative m-0 min-h-screen overflow-hidden overflow-x-hidden bg-black p-0">
                 <Main />
