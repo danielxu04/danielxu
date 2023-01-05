@@ -58,7 +58,7 @@ function ProjectSection(){
                     />
                 </div>
             </div>
-            <div className="flex-col center-items justify-center hidden xl:flex xl:flex-row xl:pt-[6vh] xl:pb-[2vh]">
+            <div className="justify-center hidden xl:flex xl:flex-row xl:pt-[6vh] xl:pb-[2vh]">
                 <DesktopGlassCard 
                     title="Expense Tracker" 
                     tempNum='01'

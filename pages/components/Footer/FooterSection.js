@@ -7,7 +7,7 @@ function FooterSection(){
                 <FooterIcons />
             </div>
             <div className="flex justify-center xl:inline-block xl:text-right">
-                <p className="text-purple-600 text-sm font-montserratRegular lighter-purple-glow xl:pl-[27vw] xl:text-md">Created and designed by Daniel Xu, 2023.</p>
+                <p className="text-purple-600 text-xs 2xs:text-sm font-montserratRegular lighter-purple-glow xl:pl-[23vw] 2xl:pl-[27vw] xl:text-md">Created and designed by Daniel Xu, 2023.</p>
             </div>
             <div className="hidden justify-center pt-2 xl:pl-[1.5vw] xl:inline-block xl:text-left">
                 <FooterIcons />
