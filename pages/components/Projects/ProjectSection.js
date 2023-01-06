@@ -14,7 +14,7 @@ function ProjectSection(){
 
     // hyperlinks
     const expenseTrackerLink = "https://github.com/danielxu04/expense-tracker";
-    const privilegeWalkLink = "https://github.com/danielxu04/privilege-walk";
+    const privilegeWalkLink = "https://github.com/danielxu04/privilegewalk";
     const codeManLink = "https://github.com/danielxu04/code-man";
 
     // languages and frameworks
