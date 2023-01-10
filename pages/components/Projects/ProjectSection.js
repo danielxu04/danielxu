@@ -13,7 +13,7 @@ function ProjectSection(){
     }, []);
 
     // hyperlinks
-    const expenseTrackerLink = "https://github.com/danielxu04/expense-tracker";
+    const expenseTrackerLink = "https://expensetracker-dx.netlify.app/";
     const privilegeWalkLink = "https://github.com/danielxu04/privilegewalk";
     const codeManLink = "https://github.com/danielxu04/code-man";
 
