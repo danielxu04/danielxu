@@ -1,4 +1,4 @@
-import {Link} from 'react-scroll';
+import Link from 'next/link';
 
 import NavButton from "./NavButton";
 
@@ -6,16 +6,16 @@ function NavButtonContainer(){
     return (
         <ul className="flex flex-row rounded p-3 bg-transparent mt-2 mb-1">
             <li>
-                <Link activeClass="active" to="home"><NavButton text="Home" id="#home"/></Link>
+                <Link href="#home"><NavButton text="Home" id="#home"/></Link>
             </li>
             <li>
-                <Link to="aboutme" ><NavButton text="Projects" id="#projects"/></Link>
+                <Link href="#aboutme" ><NavButton text="Projects" id="#projects"/></Link>
             </li>
             <li>
-                <Link to="contact" ><NavButton text="Contact" id="#contact"/></Link>
+                <Link href="#contact" ><NavButton text="Contact" id="#contact"/></Link>
             </li>
             <li>
-                <NavButton text="Resume" id="danielxu04.github.io/resume/resume-master.pdf"/>
+                <Link href="/resume/resume-master.pdf"><NavButton text="Resume" /></Link>
             </li>
         </ul>
     );

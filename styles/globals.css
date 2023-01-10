@@ -31,6 +31,10 @@
     src: url('../public/fonts/Montserrat-SemiBold.ttf');
 }
 
+html{
+    scroll-behavior: smooth !important; 
+}
+
 body{
     background: radial-gradient(circle at 28.2% 68.8%, rgb(40, 40, 40) 0%, rgb(0, 0, 0) 99.4%);
     overflow: scroll;
