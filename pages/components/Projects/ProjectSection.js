@@ -16,16 +16,22 @@ function ProjectSection(){
     const expenseTrackerLink = "https://expensetracker-dx.netlify.app/";
     const privilegeWalkLink = "https://github.com/danielxu04/privilegewalk";
     const codeManLink = "https://github.com/danielxu04/code-man";
+    const simonGameLink = "https://danielxu04.github.io/simon-game/";
+    const stockSentimentLink = "https://github.com/danielxu04/stock-sentiment/blob/main/notebook.ipynb"
+    const creditCardApprovalsLink = "https://github.com/danielxu04/credit-card-approvals/blob/main/jupyter-notebook.ipynb"
 
     // languages and frameworks
     const expenseTrackerLF = "React.js, CSS";
-    const privilegeWalkLF = "Next.js, Tailwind CSS, Firebase";
+    const privilegeWalkLF = "Next.js, Tailwind, Firebase";
     const codeManLF = "Java";
+    const simonGameLF = "HTML/CSS, JavaScript, jQuery";
+    const stockSentimentLF = "Python, pandas, Matplotlib, VADER";
+    const creditCardApprovalsLF = "Python, pandas, Matplotlib, numpy";
 
 
 
     return (
-        <div id="projects" className="mb-[10vh] md:mb-[3vh] lg:mb-0">
+        <div id="projects" className="mb-[10vh] md:mb-[3vh] lg:mb-0 flex flex-col">
             <div className="flex flex-col center-items justify-center xl:hidden">
                 <div data-aos="fade-up">
                     <MobileGlassCard 
@@ -57,6 +63,36 @@ function ProjectSection(){
                         lf = {codeManLF}
                     />
                 </div>
+                <div data-aos="fade-up">
+                    <MobileGlassCard 
+                        title="Simon Game" 
+                        tempNum='04'
+                        description="Put your memory skills to the test with a childhood classic, the Simon Game. Integrates CSS animations and sound effects
+                        with button clicks using jQuery to enhance UX."
+                        linkTo = {simonGameLink}
+                        lf = {simonGameLF}
+                    />
+                </div>
+                <div data-aos="fade-up">
+                    <MobileGlassCard 
+                        title="Stock Sentiment Analysis" 
+                        tempNum='05'
+                        description="Data Manipulation project with Python and pandas to scrape news headlines for Facebook and Tesla, then apply sentiment 
+                        analysis to produce investment insight."
+                        linkTo = {stockSentimentLink}
+                        lf = {stockSentimentLF}
+                    />
+                </div>
+                <div data-aos="fade-up">
+                    <MobileGlassCard 
+                        title="Credit Card Approvals" 
+                        tempNum='06'
+                        description="Machine learning model that predicts if credit card application will get approved. Employs Logistic Regression
+                        models to visualize approval status."
+                        linkTo = {creditCardApprovalsLink}
+                        lf = {creditCardApprovalsLF}
+                    />
+                </div>
             </div>
             <div className="justify-center hidden xl:flex xl:flex-row xl:pt-[6vh] xl:pb-[2vh]">
                 <DesktopGlassCard 
@@ -82,6 +118,32 @@ function ProjectSection(){
                     pixel art, game tiles, and a 70x60 tile world map."
                     linkTo = {codeManLink}
                     lf = {codeManLF}
+                />
+            </div>
+            <div className="justify-center hidden xl:flex xl:flex-row xl:pt-[6vh] xl:pb-[2vh]">
+                <DesktopGlassCard 
+                    title="Simon Game" 
+                    tempNum='04'
+                    description="Put your memory skills to the test with a childhood classic, the Simon Game. Integrates CSS animations and sound effects
+                    with button clicks using jQuery to enhance UX."
+                    linkTo = {simonGameLink}
+                    lf = {simonGameLF}
+                />
+                <DesktopGlassCard 
+                    title="Stock Sentiment" 
+                    tempNum='05'
+                    description="Data Manipulation project with Python and pandas to scrape news headlines for Facebook and Tesla, then apply sentiment 
+                    analysis to produce investment insight."
+                    linkTo = {stockSentimentLink}
+                    lf = {stockSentimentLF}
+                />
+                <DesktopGlassCard 
+                    title="Credit Approvals" 
+                    tempNum='06'
+                    description="Machine learning model that predicts if acredit card application will get approved. Employs Logistic Regression
+                    models to visualize how various features affect approval status."
+                    linkTo = {creditCardApprovalsLink}
+                    lf = {creditCardApprovalsLF}
                 />
             </div>
         </div>
