@@ -5,7 +5,7 @@ function TypingIntro(){
 
     return (
         <div className="text-center xl:text-left">
-            <h1 className="font-montserratBold text-purple-800 purple-glow text-4xl xs:text-5xl md:text-6xl lg:text-7xl whitespace-pre-line">
+            <h1 className="font-montserratBold text-purple-700 purple-glow text-4xl xs:text-5xl md:text-6xl lg:text-7xl whitespace-pre-line">
                 <Typewriter
                     options={{
                         loop: true,
