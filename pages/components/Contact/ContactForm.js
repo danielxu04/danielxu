@@ -27,6 +27,7 @@ function ContactForm(){
         validate,
         onSubmit: (values, actions) => {
             actions.resetForm();
+            
         },
     });
     

@@ -23,6 +23,10 @@
     src: url('../public/fonts/Ubuntu-Medium.ttf');
 }
 @font-face{
+    font-family: "Ubuntu Regular";
+    src: url('../public/fonts/Ubuntu-Regular.ttf');
+}
+@font-face{
     font-family: "Montserrat Medium";
     src: url('../public/fonts/Montserrat-Medium.ttf');
 }
@@ -123,11 +127,11 @@ body{
 .glass-container .glass-card{
     position: relative;
     margin: 30px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #dad0f786;
+    border-left: 1px solid #dad0f786;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.04);
     overflow: hidden;
     display: flex;
     backdrop-filter: blur(2px);
@@ -141,6 +145,7 @@ body{
 }
 
 .glass-container .glass-card .glass-content h2{
+    color: #a78bfa;
     position: absolute;
     top: -1.8vh;
     right: 1vw;
@@ -151,15 +156,16 @@ body{
 }
 
 .glass-container .glass-card .glass-content h3{
-    font-size: 1.8em;
-    color: #fff;
+    font-size: 1.9em;
+    color: #E9D5FF;
     z-index: 1;
+    letter-spacing: 0.1mm;
     transition: 0.9s;
 }
 
 .glass-container .glass-card .glass-content p{
     font-size: 1em;
-    color: #fff;
+    color: #ddd9ea;
     transition: 0.9s;
 }
 
@@ -172,18 +178,17 @@ body{
 }
 
 .glass-container .glass-card .glass-content:hover h2{
-    color: #a78bfa;
+
     transition: 0.8s;
 }
 
 .glass-container .glass-card .glass-content:hover h3{
-    color: #E9D5FF;
     text-shadow: 0px 0px 9px #cbbef5;
     transition: 0.8s;
 }
 
 .glass-container .glass-card .glass-content:hover p{
-    color: #d4cde8;
+    color: #cfc6e7;
     transition: 0.8s;
 }
 

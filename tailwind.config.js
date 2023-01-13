@@ -8,6 +8,7 @@ module.exports = {
         robotoMonoSemiBold: ["Roboto Mono SemiBold", "monospace"],
         montserratBold: ["Montserrat Bold", "sans-serif"],
         robotoMonoBold: ["Roboto Mono Bold", "monosapce"],
+        ubuntuRegular: ["Ubuntu Regular", "sans-serif"],
         ubuntuMedium: ["Ubuntu Medium", "sans-serif"],
         montserratMedium: ["Montserrat Medium", "sans-serif"],
         montserratSemiBold: ["Montserrat Semi-Bold", "sans-serif"]
