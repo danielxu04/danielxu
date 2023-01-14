@@ -25,8 +25,8 @@ function ProjectSection(){
     const privilegeWalkLF = "Next.js, Tailwind, Firebase";
     const codeManLF = "Java";
     const simonGameLF = "HTML/CSS, JavaScript, jQuery";
-    const stockSentimentLF = "Python, pandas, Matplotlib, VADER";
-    const creditCardApprovalsLF = "Python, pandas, Matplotlib, numpy";
+    const stockSentimentLF = "pandas, Matplotlib, VADER";
+    const creditCardApprovalsLF = "pandas, NumPy, scikit-learn";
 
 
 
@@ -120,7 +120,7 @@ function ProjectSection(){
                     lf = {codeManLF}
                 />
             </div>
-            <div className="justify-center hidden xl:flex xl:flex-row xl:pt-[6vh] xl:pb-[2vh]">
+            <div className="justify-center hidden xl:flex xl:flex-row xl:pt-[6vh] xl:pb-[2vh]" data-aos='fade-up'>
                 <DesktopGlassCard 
                     title="Simon Game" 
                     tempNum='04'
