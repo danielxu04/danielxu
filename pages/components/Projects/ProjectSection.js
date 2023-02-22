@@ -25,8 +25,8 @@ function ProjectSection(){
     const privilegeWalkLF = "Next.js, Tailwind, Firebase";
     const codeManLF = "Java";
     const simonGameLF = "HTML/CSS, JavaScript, jQuery";
-    const stockSentimentLF = "pandas, Matplotlib, VADER";
-    const creditCardApprovalsLF = "pandas, NumPy, scikit-learn";
+    const stockSentimentLF = "Pandas, Matplotlib, NLTK";
+    const creditCardApprovalsLF = "Pandas, NumPy, Scikit-learn";
 
 
 
