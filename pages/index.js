@@ -8,6 +8,7 @@ import ProjectSection from '../components/Projects/ProjectSection';
 import ContactSection from '../components/Contact/ContactSection';
 import FooterSection from '../components/Footer/FooterSection';
 import ParticleAnimation from '../components/ParticleAnimation';
+import { LightModeContextProvider } from '../contexts/LightMode';
 
 
 
@@ -18,14 +19,16 @@ function HomePage() {
     }, []);
 
     return (
-        <div className="flex flex-col w-screen">
-            <HeaderSection />
-            <div data-aos="fade-up"><AboutMe /></div>
-            <div data-aos="fade-up"><ProjectSection /></div>
-            <div data-aos="fade-up"><ContactSection /></div>
-            <FooterSection />
-            <ParticleAnimation />
-        </div>
+        <LightModeContextProvider>
+            <div className="flex flex-col w-screen dark">
+                <HeaderSection />
+                <div data-aos="fade-up"><AboutMe /></div>
+                <div data-aos="fade-up"><ProjectSection /></div>
+                <div data-aos="fade-up"><ContactSection /></div>
+                <FooterSection />
+                <ParticleAnimation />
+            </div>
+        </LightModeContextProvider>
     );
 }
 
