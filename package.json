@@ -17,6 +17,7 @@
     "@heroicons/react": "^2.0.12",
     "@next/font": "^13.0.1",
     "@sendgrid/mail": "^7.7.0",
+    "aos": "^2.3.4",
     "babel-plugin-macros": "^3.1.0",
     "dotenv": "^16.0.3",
     "formik": "^2.2.9",
