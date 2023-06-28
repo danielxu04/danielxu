@@ -1,6 +1,6 @@
 function MobileGlassCard(props){
     return (
-        <a href={props.linkTo}>
+        <a href={props.linkTo} target="_blank">
             <div className="glass-container py-[2vh] md:py-0 md:px-[7vw]">
                 <div className="mobile-glass-card h-[80vh] 2xs:h-[60vh] iPhone12:h-[53vh] 1.5xs:h-[45vh] xs:h-[50vh] md:h-[31vh] lg:h-[28vh] lg:w-[60vw] xl:w-[20vw] xl:h-[40vh]">
                     <div className=" text-white pt-[13vh] 2xs:pt-[10vh] md:pt-[6vh] md:px-10 lg:px-6">
