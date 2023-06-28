@@ -1,6 +1,6 @@
 // images
 import Image from "next/image";
-import codeLogo from "../../../public/icons/code-solid.svg";
+import codeLogo from "../../public/icons/code-solid.svg";
 
 
 function MobileLogo(){

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import TypingIntro from "./TypingIntro";
-import DanielPicture from '../../public/images/danielpicture.jpg';
+import DanielPicture from '../public/images/danielpicture.jpg';
 
 function IntroContainer(){
     return (

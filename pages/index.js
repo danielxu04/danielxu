@@ -2,11 +2,11 @@ import {useEffect} from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import HeaderSection from './components/HeaderSection';
-import AboutMe from './components/AboutMe/AboutMe';
-import ProjectSection from './components/Projects/ProjectSection';
-import ContactSection from './components/Contact/ContactSection';
-import FooterSection from './components/Footer/FooterSection';
+import HeaderSection from '../components/HeaderSection';
+import AboutMe from '../components/AboutMe/AboutMe';
+import ProjectSection from '../components/Projects/ProjectSection';
+import ContactSection from '../components/Contact/ContactSection';
+import FooterSection from '../components/Footer/FooterSection';
 
 function HomePage() {
 

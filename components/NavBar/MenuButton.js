@@ -1,6 +1,6 @@
 // images
 import Image from "next/image";
-import hamburger from "../../../public/icons/bars-solid.svg";
+import hamburger from "../../public/icons/bars-solid.svg";
 
 function MenuButton(props){
     

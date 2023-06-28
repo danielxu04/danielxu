@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import LinkedIn from '../../../public/icons/linkedin.svg';
-import GitHub from '../../../public/icons/square-github.svg';
-import Instagram from '../../../public/icons/square-instagram.svg';
+import LinkedIn from '../../public/icons/linkedin.svg';
+import GitHub from '../../public/icons/square-github.svg';
+import Instagram from '../../public/icons/square-instagram.svg';
 
 function FooterIcons(){
     return (
