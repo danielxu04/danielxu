@@ -207,6 +207,7 @@ body{
 
 
 
+
 /*************************************** MOBILE GLASS CARDS ************************************************/
 
 .glass-container .mobile-glass-card{
@@ -282,6 +283,42 @@ body{
     color: #bc8ce0;
 }
 
+/**************************************************** MEDIA QUERIES **************************************************/
+@media screen and (min-height: 971px) {
+    .glass-container .glass-card{
+        height: 40.5vh;
+    }
+}
+@media screen and (min-height: 950px) and (max-height: 970px){
+    .glass-container .glass-card{
+        height: 43vh;
+    }
+}
+@media screen and (max-height: 765px) and (min-height: 740px) {
+    .glass-container .glass-card{
+        height: 51vh;
+    }
+}
+@media screen and (max-height: 739px) and (min-height: 640px) {
+    .glass-container .glass-card{
+        height: 54vh;
+    }
+}
+@media screen and (max-height: 639px) and (min-height: 550px) {
+    .glass-container .glass-card{
+        height: 58vh;
+    }
+}
+@media screen and (max-height: 549px) and (min-height: 500px) {
+    .glass-container .glass-card{
+        height: 63vh;
+    }
+}
+@media screen and (max-height: 499px) and (min-height: 450px) {
+    .glass-container .glass-card{
+        height: 69vh;
+    }
+}
 
 /***************************************************** FOOTER ICONS **************************************************/
 .footer-icon{

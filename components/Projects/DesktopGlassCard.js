@@ -23,7 +23,6 @@ function DesktopGlassCard(props){
                                 <p className="font-montserratRegular text-[0.3vw] relative lg:pt-5 px-6">{props.lf}</p>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
