@@ -11,7 +11,7 @@ function IntroParagraph(){
             Hi! I&apos;m Daniel Xu, a <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}>Computer Science</strong> student at the 
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> University of Waterloo.
             </strong> 
-            <br /><br />I'm working towards a triple-major in 
+            <br /><br />I&apos;m working towards a triple-major in 
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Computer Science, </strong>
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}>
                 Combinatorics & Optimization, </strong>and
