@@ -1,11 +1,18 @@
 // libraries
 import Typewriter from 'typewriter-effect';
 
+// components
+import { useContext } from 'react';
+import { LightModeContext } from '../contexts/LightMode';
+
 function TypingIntro(){
+
+    const lightModeState = useContext(LightModeContext);
 
     return (
         <div className="text-center xl:text-left">
-            <h1 className="font-montserratBold text-purple-700 purple-glow text-4xl xs:text-5xl md:text-6xl lg:text-7xl whitespace-pre-line">
+            <h1 className={`font-montserratBold text-4xl xs:text-5xl md:text-6xl lg:text-7xl whitespace-pre-line transition-15
+                ${lightModeState.isLightMode === 'light' ? 'text-purple-700 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}>
                 <Typewriter
                     options={{
                         loop: true,

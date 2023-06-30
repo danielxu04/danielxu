@@ -10,7 +10,7 @@ function MobileGlassCard(props){
                             <p className="font-montserratRegular md:mt-2 pt-3 px-6 leading-6 lg:text-[1vh] lg:blur-none">{props.description}</p>
                             <hr className="relative mt-6 mb-0 w-[5vw] m-auto opacity-20 border-[0.75px]"></hr>
                             <div className="justify-center text-center languages">
-                                <p className="font-montserratRegular relative pt-8">{props.lf}</p>
+                                <p className="font-montserratRegular relative pt-8 px-8">{props.lf}</p>
                             </div>
                         </div>
                     </div>

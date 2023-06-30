@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document(){
     return (
-        <Html className="m-0 overflow-x-hidden scroll-smooth p-0">
+        <Html className="m-0 overflow-x-hidden scroll-smooth p-0 light">
                 <title>Daniel Xu</title>
                 <Head>
                     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />

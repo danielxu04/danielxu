@@ -44,11 +44,6 @@ body{
     overflow: scroll;
 }
 
-.color-picker {
-    color: #edadff;
-    background-color: #5585ff
-}
-
 .svg-glow {
     filter: box-shadow(0 4px 30px #a78bfa);
   }
@@ -56,13 +51,28 @@ body{
 .purple-glow{
     text-shadow: 0px 0px 9px #581C87;
 }
+.light-purple-glow {
+    text-shadow: 0px 0px 15px #cd8efe;
+}
+.blackberry-glow {
+    text-shadow: 0px 0px 15px #8ebbfe;
+}
 
 .wider-purple-glow{
     text-shadow: 0px 0px 25px #581C87;
 }
+.light-wider-purple-glow{
+    text-shadow: 0px 0px 9px #e983fd;
+}
+.light-contact-glow {
+    text-shadow: 0px 0px 6px #e983fd;
+}
 
 .transition-075{
     transition: 0.75s;
+}
+.transition-15 {
+    transition: 1.5s;
 }
 
 .lighter-purple-glow{
@@ -71,6 +81,9 @@ body{
 
 .purple-300-glow{
     text-shadow: 0px 0px 9px #a78bfa;
+}
+.fuchsia-600-glow {
+    text-shadow: 0px 0px 7px #f49fffd8;
 }
 
 .subtle-purple-300-glow{
@@ -85,15 +98,6 @@ body{
     box-shadow: 0 0 40px #a78bfa;
 }
 
-.glassmorphism{
-    background: rgba(255, 255, 255, 0.09);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
 .blur-effect{
     backdrop-filter: blur(7px);
 }
@@ -103,9 +107,23 @@ body{
     align-items: center;
     position: relative;
     background: black;
-    border-radius: 15px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 1.5px;
     box-shadow: 0 4px 30px #a78bfa;
 }
+
+.light-picture-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-color: rgb(111, 2, 147);
+    border-width: 1.5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 60px #c982f8;
+    background: rgb(254, 240, 255);
+}
+
 .particles {
     position: absolute;
     right: 0;
@@ -128,8 +146,41 @@ body{
     text-shadow: 0px 0px 9px #a78bfa;
 }
 
+.light-nav-items{
+    transition: 0.8s;
+    display: block;
+}
+
+.light-nav-items:hover{
+    --tw-translate-y: 0.5vh;
+    transition: 0.8s;
+    color:#fd7eff;
+    text-shadow: 0px 0px 9px #f88bfa;
+}
+
+.nav-icon {
+    transition: 0.8s;
+}
+.nav-icon:hover {
+    --tw-translate-y: 0.65vh;
+    filter: invert(57%) sepia(69%) saturate(1250%) hue-rotate(212deg) brightness(97%) contrast(102%);
+    transition: 0.8s;
+}
+.light-nav-icon {
+    transition: 0.8s;
+}
+.light-nav-icon:hover {
+    filter: brightness(0) saturate(100%) invert(68%) sepia(57%) saturate(1815%) hue-rotate(248deg) brightness(102%) contrast(104%);
+    --tw-translate-y: 0.65vh;
+    transition: 0.8s;
+}
 
 /***************************************************** DESKTOP GLASS CARDS ***************************************/
+
+.color-picker {
+    color: #db5bff;
+    background-color: #fcfdf3;
+}
 
 .glass-container{
     position: relative;
@@ -153,7 +204,26 @@ body{
     transition: 1s;
 }
 
+.glass-container .light-glass-card{
+    position: relative;
+    margin: 30px;
+    border-top: 2px solid #dfa0ff81;
+    border-left: 2px solid #dfa0ff81;
+    box-shadow: 20px 20px 45px rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.092);
+    overflow: hidden;
+    display: flex;
+    backdrop-filter: blur(2px);
+    transition: 1s;
+}
+
 .glass-container .glass-card .glass-content{
+    padding: 2vh;
+    text-align: center;
+    transition: 0.9s;
+}
+.glass-container .light-glass-card .glass-content{
     padding: 2vh;
     text-align: center;
     transition: 0.9s;
@@ -170,6 +240,17 @@ body{
     transition: 0.9s;
 }
 
+.glass-container .light-glass-card .glass-content h2{
+    color: #ea48ff;
+    position: absolute;
+    top: -1.8vh;
+    right: 1vw;
+    font-size: 5.5rem;
+    opacity: 0.2;
+    pointer-events: none;
+    transition: 0.9s;
+}
+
 .glass-container .glass-card .glass-content h3{
     font-size: 1.9em;
     color: #E9D5FF;
@@ -177,10 +258,22 @@ body{
     letter-spacing: 0.1mm;
     transition: 0.9s;
 }
+.glass-container .light-glass-card .glass-content h3{
+    font-size: 1.9em;
+    color: #8900a1;
+    z-index: 1;
+    letter-spacing: 0.1mm;
+    transition: 0.9s;
+}
 
 .glass-container .glass-card .glass-content p{
     font-size: 1em;
-    color: #ddd9ea;
+    color: #e8d9ea;
+    transition: 0.9s;
+}
+.glass-container .light-glass-card .glass-content p{
+    font-size: 1em;
+    color: #9401a7b1;
     transition: 0.9s;
 }
 
@@ -191,9 +284,9 @@ body{
     box-shadow: 0 4px 40px #a78bfa;
     transition: 0.8s;
 }
-
-.glass-container .glass-card .glass-content:hover h2{
-
+.glass-container .light-glass-card:hover{
+    border-color:#e78bfa;
+    box-shadow: 0 4px 60px #e78bfa;
     transition: 0.8s;
 }
 
@@ -201,9 +294,17 @@ body{
     text-shadow: 0px 0px 9px #cbbef5;
     transition: 0.8s;
 }
+.glass-container .light-glass-card .glass-content:hover h3{
+    text-shadow: 0px 0px 9px #e57cfa;
+    transition: 0.8s;
+}
 
 .glass-container .glass-card .glass-content:hover p{
     color: #cfc6e7;
+    transition: 0.8s;
+}
+.glass-container .light-glass-card .glass-content:hover p{
+    color: #d35bff;
     transition: 0.8s;
 }
 
@@ -216,9 +317,6 @@ body{
     text-shadow: 0px 0px 9px #cbbef5;
     transition: 0.5s;
 }
-
-
-
 
 /*************************************** MOBILE GLASS CARDS ************************************************/
 
@@ -250,7 +348,7 @@ body{
     color: #d4cde8;
 }
 
-/*hovers*/
+/* mobile hovers
 .glass-container .mobile-glass-card:hover{
     border-color:#564687;
     box-shadow: 0 4px 40px #564687;
@@ -273,6 +371,7 @@ body{
     text-shadow: 0px 0px 8px #564687;
     transition: 0.75s;
 }
+*/
 
 
 /***************************************************** CONTACT FORM **************************************************/
@@ -286,9 +385,23 @@ body{
     box-shadow: 0 0 30px #a78bfa;
     text-shadow: 0px 0px 20px #a78bfa;
 }
+.light-chat-btn {
+    transition: 0.8s;
+    box-shadow: 0 0 20px #e78bfa;
+    text-shadow: 0px 0px 6px #e78bfa;
+}
+.light-chat-btn:hover{
+    transition: 0.8s;
+    box-shadow: 0 0 30px #e78bfa;
+    text-shadow: 0px 0px 20px #e78bfa;
+}
 .form-purple-box-shadow{
     border: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 20px #ac95f1;
+}
+.light-form-box-shadow{
+    border: 1px solid #e492ff8c;
+    box-shadow: 0 0 20px #f1c2ff;
 }
 
 .subtext-color{
@@ -300,9 +413,15 @@ body{
     .glass-container .glass-card{
         height: 40.5vh;
     }
+    .glass-container .light-glass-card{
+        height: 40.5vh;
+    }
 }
 @media screen and (min-height: 950px) and (max-height: 970px){
     .glass-container .glass-card{
+        height: 43vh;
+    }
+    .glass-container .light-glass-card{
         height: 43vh;
     }
 }
@@ -310,9 +429,15 @@ body{
     .glass-container .glass-card{
         height: 51vh;
     }
+    .glass-container .light-glass-card{
+        height: 51vh;
+    }
 }
 @media screen and (max-height: 739px) and (min-height: 640px) {
     .glass-container .glass-card{
+        height: 54vh;
+    }
+    .glass-container .light-glass-card{
         height: 54vh;
     }
 }
@@ -320,9 +445,15 @@ body{
     .glass-container .glass-card{
         height: 58vh;
     }
+    .glass-container .light-glass-card{
+        height: 58vh;
+    }
 }
 @media screen and (max-height: 549px) and (min-height: 500px) {
     .glass-container .glass-card{
+        height: 63vh;
+    }
+    .glass-container .light-glass-card{
         height: 63vh;
     }
 }
@@ -330,15 +461,18 @@ body{
     .glass-container .glass-card{
         height: 69vh;
     }
+    .glass-container .light-glass-card{
+        height: 69vh;
+    }
 }
 
 /***************************************************** FOOTER ICONS **************************************************/
 .footer-icon{
     display: inline-block;
-    transition: 1s;
+    transition: 0.8s;
 }
 .footer-icon:hover{
-    transition: 1s;
+    transition: 0.8s;
 }
 .icon-box-shadow{
     transition: 1s;
@@ -346,6 +480,14 @@ body{
 .icon-box-shadow:hover{
     transition: 1s;
     filter: drop-shadow(0 0 10px #623088);
+    animation: ease-out;
+}
+.light-icon-box-shadow{
+    transition: 1s;
+}
+.light-icon-box-shadow:hover{
+    transition: 1s;
+    filter: drop-shadow(0 0 10px #ff65fc);
     animation: ease-out;
 }
 
@@ -362,6 +504,9 @@ body{
 }
 .filter-fuchsia-400{
     filter: invert(58%) sepia(43%) saturate(640%) hue-rotate(242deg) brightness(99%) contrast(97%);
+}
+.filter-fuchsia-600{
+    filter: invert(17%) sepia(97%) saturate(4465%) hue-rotate(288deg) brightness(101%) contrast(85%);
 }
 .filter-purple-800{
     filter: invert(11%) sepia(70%) saturate(5726%) hue-rotate(272deg) brightness(91%) contrast(89%);

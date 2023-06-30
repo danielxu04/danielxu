@@ -40,7 +40,7 @@ function ProjectSection(){
                         title="Dreamscape" 
                         tempNum='01'
                         description="An innovative 'dream journal' social media platform, integrating generative machine learning to produce a unique/cohesive 
-                        image based on user prompts. Placed 1st out of 100+ participants in Waterloo's Project Program."
+                        image based on user prompts."
                         linkTo = {dreamscapeLink}
                         lf = {dreamscapeLF}
                     />

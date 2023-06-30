@@ -20,7 +20,7 @@ function HomePage() {
 
     return (
         <LightModeContextProvider>
-            <div className="flex flex-col w-screen dark">
+            <div className="flex flex-col w-screen">
                 <HeaderSection />
                 <div data-aos="fade-up"><AboutMe /></div>
                 <div data-aos="fade-up"><ProjectSection /></div>
