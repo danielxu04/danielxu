@@ -48,6 +48,14 @@ export default function ParticleAnimation() {
             resize: true,
           },
           modes: {
+            attract: {
+              distance: 200,
+              duration: 0.4,
+              easing: "ease-out-quad",
+              factor: 1,
+              maxSpeed: 50,
+              speed: 1
+            },
             connect: {
               distance: 60,
               links: {
@@ -126,23 +134,42 @@ export default function ParticleAnimation() {
           events: {
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: "grab",
               parallax: {
-                  enable: false,
-                  force: 20,
+                  enable: true,
+                  force: 60,
                   smooth: 10
               }
             },
             resize: true,
           },
           modes: {
-            repulse: {
-              distance: 80,
-              duration: 0.5,
-              speed: 1,
+            attract: {
+              distance: 200,
+              duration: 0.4,
               easing: "ease-out-quad",
+              factor: 1,
               maxSpeed: 50,
+              speed: 1
             },
+            connect: {
+              distance: 60,
+              links: {
+                  opacity: 0.4
+              },
+              radius: 60
+            },
+            grab: {
+              distance: 220,
+              links: {
+                  blink: false,
+                  consent: false,
+                  opacity: 0.8
+              }
+            },
+            repulse: {
+              distance: 200
+            }
           },
         },
         particles: {
