@@ -57,7 +57,7 @@ function ProjectSection(){
                         title="DerivaPrice" 
                         tempNum='02'
                         description="A theoretical derivative pricing calculator using pricing models such as Black-Scholes, Binomial, Markowitz, along with 
-                        Monte Carlo simulations for put/call option pricing."
+                        Monte Carlo simulations for option pricing."
                         linkTo = {derivaPriceLink}
                         lf = {derivaPriceLF}
                     />
@@ -145,7 +145,7 @@ function ProjectSection(){
                     title="DerivaPrice" 
                     tempNum='02'
                     description="A theoretical derivative pricing calculator using pricing models such as Black-Scholes, Binomial, Markowitz, along with 
-                    Monte Carlo simulations for put/call option pricing."
+                    Monte Carlo simulations for option pricing."
                     linkTo = {derivaPriceLink}
                     lf = {derivaPriceLF}
                 />
