@@ -16,7 +16,7 @@ function IntroParagraph(){
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}>
                 Combinatorics & Optimization, </strong>and
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Pure Mathematics.</strong>
-            <br /><br />In my current school term, I am taking 6 courses: Intro to Combinatorics (Advanced), Linear Algebra II (Advanced), Probability (Advanced), Logic and Computation, Physics of How Things Work, and Object-Oriented Software Development.
+            <br /><br />In my current school term, I am taking 6 courses: Intro to Optimization (Advanced), Statistics (Advanced), Foundations of Sequential Programs, Computer Organization and Design, Physics I, and Korean!
             <br /><br />I&apos;m super passionate about computer science and theoretical mathematics, in various areas such as Quantitative Finance, Full-stack Development, Data Science, Deep Learning, and Computer Vision.
 
             <br /><br />Formerly, I was a Full-stack Developer at 
