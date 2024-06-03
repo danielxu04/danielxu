@@ -96,7 +96,7 @@ function ProjectSection(){
                     <MobileGlassCard 
                         title="Credit Card Approvals" 
                         tempNum='06'
-                        description="Machine learning model that predicts if acredit card application will get approved. Employs Logistic Regression
+                        description="Machine learning model that predicts if a credit card application will get approved. Employs Logistic Regression
                         models to visualize how various attributes affect approval status."
                         linkTo = {creditCardApprovalsLink}
                         lf = {creditCardApprovalsLF}
@@ -178,7 +178,7 @@ function ProjectSection(){
                 <DesktopGlassCard 
                     title="Credit Approvals" 
                     tempNum='06'
-                    description="Machine learning model that predicts if acredit card application will get approved. Employs Logistic Regression
+                    description="Machine learning model that predicts if a credit card application will get approved. Employs Logistic Regression
                     models to visualize how various attributes affect approval status."
                     linkTo = {creditCardApprovalsLink}
                     lf = {creditCardApprovalsLF}
