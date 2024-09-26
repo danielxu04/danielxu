@@ -17,23 +17,14 @@ function IntroParagraph(){
                 Combinatorics & Optimization, </strong>and
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Pure Mathematics.</strong>
             <div className="hidden">In my current school term, I am taking 6 courses: Intro to Optimization (Advanced), Statistics (Advanced), Foundations of Sequential Programs, Computer Organization and Design, Physics I, and Korean!</div>
-            <br /><br />I&apos;m super passionate about computer science and theoretical mathematics, in various areas such as Quantitative Finance, Full-stack Development, Data Science, Deep Learning, and Computer Vision.
 
-            <br /><br />Currently, I am working as a 
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Quant Analyst - Derivatives, Collateral, Fixed Income </strong>
+            <br /><br />Formerly, I worked as a 
+            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Quant Analyst </strong> on the prime brokerage desk
              at 
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-green-300 purple-glow' : 'text-green-600 blackberry-glow'}`}> HOOPP</strong>
-            . Formerly, I was a Full-stack Developer at 
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-blue-300 purple-glow' : 'text-blue-600 blackberry-glow'}`}> BlackBerry,</strong> in charge of leveraging a versatile tech stack,
-            consisting of 
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> AEM,</strong>
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> TypeScript,</strong>
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> JavaScript,</strong>
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Java,</strong>
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Git,</strong> and
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> XML/HTL/SASS</strong>.
+            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-green-300 purple-glow' : 'text-green-500 blackberry-glow'}`}> HOOPP</strong>
+            , and as a Software Engineer
+            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-blue-300 purple-glow' : 'text-blue-600 blackberry-glow'}`}> BlackBerry</strong>.
 
-            <br /><br />When I&apos;m not coding, you&apos;ll find me playing piano, playing basketball, watching K-Dramas and Anime, or hanging out with friends.
 
             <br /><br />I love <strong id="aboutme" className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}>learning</strong> about new technologies, and building projects to bring my ideas to life. 
             
