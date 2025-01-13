@@ -22,7 +22,7 @@ function IntroParagraph(){
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Quant Analyst </strong> on the prime brokerage desk
              at 
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-green-300 purple-glow' : 'text-green-500 blackberry-glow'}`}> HOOPP</strong>
-            , and as a Software Engineer
+            , and as a Software Engineer at
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-blue-300 purple-glow' : 'text-blue-600 blackberry-glow'}`}> BlackBerry</strong>.
 
 

@@ -47,7 +47,7 @@ module.exports = {
       '3xl': '1400px',
       '4xl': '1540px',
       '5xl': '1800px'
-    },
+    }
   },
   plugins: [],
   darkMode: 'class',
