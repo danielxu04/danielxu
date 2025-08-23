@@ -19,10 +19,15 @@ function IntroParagraph(){
             <div className="hidden">In my current school term, I am taking 6 courses: Intro to Optimization (Advanced), Statistics (Advanced), Foundations of Sequential Programs, Computer Organization and Design, Physics I, and Korean!</div>
 
             <br /><br />Formerly, I worked as a 
-            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-purple-300 purple-glow' : 'text-fuchsia-700 light-purple-glow'}`}> Quant Analyst </strong> on the prime brokerage desk
-             at 
+            Data Engineer at 
+            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-blue-400 purple-glow' : 'text-blue-700 blackberry-glow'}`}> BitGo</strong>,
+            Software Engineer at
+            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-teal-300 purple-glow' : 'text-teal-600 blackberry-glow'}`}> MaritHealth</strong>,
+            Data Scientist at 
+            <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-emerald-500 purple-glow' : 'text-emerald-700 blackberry-glow'}`}> Shopify</strong>, 
+            Quant Analyst on the prime brokerage desk at 
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-green-300 purple-glow' : 'text-green-500 blackberry-glow'}`}> HOOPP</strong>
-            , and as a Software Engineer at
+            , and as Software Engineer at
             <strong className={`transition-15 ${lightModeState.isLightMode === 'light' ? 'text-blue-300 purple-glow' : 'text-blue-600 blackberry-glow'}`}> BlackBerry</strong>.
 
 
